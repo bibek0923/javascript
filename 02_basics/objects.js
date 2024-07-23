@@ -43,3 +43,7 @@ const user1={
         console.log(`hello ${user1.names} or ${this.names}`);
     }
     console.log(user1.greeting());
+
+
+
+   
