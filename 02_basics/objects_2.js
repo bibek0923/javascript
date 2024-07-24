@@ -25,3 +25,16 @@
  console.log(Object.values(obj4));
  console.log(Object.entries(obj4));
  console.log(obj4.hasOwnProperty('1'))
+
+ //destructuring
+
+ course={
+   name:"django",
+   price:555,
+   instructor_name:"Jack"
+ }
+
+ console.log(course.name);
+ const {instructor_name:instructor}=course
+ //console.log(instructor_name);
+ console.log(instructor);
